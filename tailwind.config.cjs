@@ -16,8 +16,48 @@ module.exports = {
         chineseBlack: "##0C111F",
       },
       screens: {
-        xlg: "1282px",
+        xl: "1282px",
         "3xl": "1920px",
+      },
+      keyframes: {
+        "infinite-scroll-y-tb": {
+          "0%": {
+            transform: "translateY(-100%)",
+          },
+          "100%": {
+            transform: "translateY(0%)",
+          },
+        },
+        "infinite-scroll-y-t": {
+          "0%": {
+            transform: "translateY(0%)",
+          },
+          "100%": {
+            transform: "translateY(-100%)",
+          },
+        },
+        "infinite-scroll-x-tl": {
+          "0%": {
+            transform: "translateX(0%)",
+          },
+          "100%": {
+            transform: "translateX(-30%)",
+          },
+        },
+        "infinite-scroll-x-tr": {
+          "0%": {
+            transform: "translateX(-30%)",
+          },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+      },
+      animation: {
+        "marquee-tb": "infinite-scroll-y-tb 15s linear infinite",
+        "marquee-t": "infinite-scroll-y-t 15s linear infinite",
+        "marquee-x-tr": "infinite-scroll-x-tr 30s linear infinite",
+        "marquee-x-tl": "infinite-scroll-x-tl 30s linear infinite",
       },
     },
   },

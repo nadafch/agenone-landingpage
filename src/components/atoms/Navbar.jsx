@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="hidden lg:flex justify-around gap-10 text-white xl:text-xl">
         {["Home", "Services", "Project", "About Us"].map((index, label) => {
           return (
-            <div role="button" onClick={() => setActiveMenu(label)}>
+            <div key={label} role="button" onClick={() => setActiveMenu(label)}>
               <a href={`#${index}`}>{index}</a>
               {activeMenu === label && (
                 <div

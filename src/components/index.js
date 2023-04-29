@@ -6,8 +6,9 @@ export { default as ToogleButton } from "./atoms/ToogleButton";
 
 //molecules
 export { default as SpecialIcon } from "./molecules/SpecialIcon";
-export { default as Navbar } from "./molecules/Navbar";
+export { default as Navbar } from "./atoms/Navbar";
 export { default as CardAchievement } from "./molecules/CardAchievement";
+export { default as CardTestimonial } from "./molecules/CardTestimonial";
 
 //organism
 export { default as CardBanner } from "./organism/CardBanner";

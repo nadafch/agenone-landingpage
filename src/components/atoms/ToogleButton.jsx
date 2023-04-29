@@ -10,12 +10,10 @@ export default function ToogleButton() {
   ];
   const [activeMenu, setActiveMenu] = useState(0);
 
-  console.log(activeMenu);
-
   return (
     <div className="w-full bg-cultured p-2 lg:p-3 rounded-full flex justify-center items-center gap-3 lg:gap-8 text-stone-400 relative text-lg">
       {services.map((index, _idx) => (
-        <>
+        <div key={_idx}>
           <div
             role="button"
             className={clsx("hidden lg:block p-3 px-2", {
@@ -36,7 +34,7 @@ export default function ToogleButton() {
           >
             {index.short}
           </div>
-        </>
+        </div>
       ))}
     </div>
   );
