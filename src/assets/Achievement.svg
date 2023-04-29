@@ -1,0 +1,29 @@
+<svg width="1440" height="561" viewBox="0 0 1440 561" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_171_1064)">
+<rect width="1440" height="561" transform="translate(0 0.000793457)" fill="url(#paint0_linear_171_1064)" fill-opacity="0.1"/>
+<path d="M559 557.501L810.792 393.898C845.099 371.607 887.023 364.296 926.85 373.66L961.305 381.761C1006.24 392.327 1053.54 381.614 1089.53 352.718L1138.36 313.526C1164.99 292.151 1198.11 280.501 1232.26 280.501H1250.5C1289.32 280.501 1326.62 265.457 1354.57 238.529L1515.5 83.5008" stroke="url(#paint1_linear_171_1064)" stroke-opacity="0.1" stroke-width="20"/>
+<path d="M670 558.001L872.92 423.379C907.428 400.486 949.864 392.877 990.176 402.355L1023.8 410.261C1068.74 420.827 1116.04 410.114 1152.03 381.218L1200.86 342.026C1227.49 320.651 1260.61 309.001 1294.76 309.001H1313C1351.82 309.001 1389.12 293.957 1417.07 267.029L1578 112.001" stroke="url(#paint2_linear_171_1064)" stroke-opacity="0.1" stroke-width="20"/>
+<circle cx="112" cy="112.001" r="72" fill="url(#paint3_linear_171_1064)" fill-opacity="0.1"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_171_1064" x1="1440" y1="561" x2="25.8763" y2="-59.0181" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00796D"/>
+<stop offset="1" stop-color="#38C682"/>
+</linearGradient>
+<linearGradient id="paint1_linear_171_1064" x1="1515.5" y1="557.501" x2="514.541" y2="212.484" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00796D"/>
+<stop offset="1" stop-color="#38C682"/>
+</linearGradient>
+<linearGradient id="paint2_linear_171_1064" x1="1578" y1="558.001" x2="629.594" y2="228.192" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00796D"/>
+<stop offset="1" stop-color="#38C682"/>
+</linearGradient>
+<linearGradient id="paint3_linear_171_1064" x1="184" y1="184.001" x2="20.1828" y2="156.019" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00796D"/>
+<stop offset="1" stop-color="#38C682"/>
+</linearGradient>
+<clipPath id="clip0_171_1064">
+<rect width="1440" height="561" fill="white" transform="translate(0 0.000793457)"/>
+</clipPath>
+</defs>
+</svg>

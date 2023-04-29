@@ -1,0 +1,12 @@
+export { default as LogoText } from "../assets/Logo_text_default.svg";
+export { default as LogoTextSM } from "../assets/Logo_text_small.svg";
+export { default as CardBanner } from "../assets/CardBanner.svg";
+export { default as CardBannerSM } from "../assets/CardBannerSmall.svg";
+export { default as Expand } from "../assets/Expand.svg";
+export { default as Star } from "../assets/Star.svg";
+export { default as Client } from "../assets/Client.svg";
+export { default as Wallet } from "../assets/Wallet.svg";
+export { default as BigArrow } from "../assets/BigArrow.svg";
+export { default as AchievementPattern } from "../assets/Achievement.svg";
+export { default as Project1 } from "../assets/project1.svg";
+export { default as Project2 } from "../assets/si-peka.png";
