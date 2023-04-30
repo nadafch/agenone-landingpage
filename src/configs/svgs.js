@@ -16,3 +16,4 @@ export { default as google } from "../assets/companyLogo/google.svg";
 export { default as microsoft } from "../assets/companyLogo/microsoft.svg";
 export { default as adobe } from "../assets/companyLogo/adobe.svg";
 export { default as slack } from "../assets/companyLogo/slack.svg";
+export { default as Footer } from "../assets/Union.svg";

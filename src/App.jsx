@@ -6,6 +6,7 @@ import Achievement from "./pages/Achievement";
 import OurWorks from "./pages/OurWorks";
 import CompanyList from "./pages/CompanyList";
 import Testimonial from "./pages/Testimonial";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <OurWorks />
       <CompanyList />
       <Testimonial />
+      <Footer />
     </>
   );
 }

@@ -4,7 +4,7 @@ import * as SVGS from "../configs/svgs";
 export default function OurWorks() {
   return (
     <div className="w-full bg-slate-900 text-white" id="Project">
-      <div className="w-full p-6 bg-ourwork-pattern bg-no-repeat bg-cover flex flex-col justify-center items-center">
+      <div className="w-full p-6 pb-24 bg-ourwork-pattern bg-no-repeat bg-cover flex flex-col justify-center items-center">
         <div className="w-full max-w-[90%] font-bold text-6xl text-center mt-24">
           Our Project Have Been{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">

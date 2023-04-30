@@ -8,6 +8,7 @@ module.exports = {
         "card-banner": "url('./src/assets/CardBanner.svg')",
         "achievement-pattern": "url('./src/assets/Achievement.svg')",
         "ourwork-pattern": "url('./src/assets/OrnamentBox2.svg')",
+        footer: "url('./src/assets/Union.svg')",
       },
       colors: {
         primary: "#38C682",

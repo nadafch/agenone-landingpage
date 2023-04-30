@@ -19,9 +19,9 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <div className="w-full mb-10 lg:mb-0 lg:px-12 flex flex-col lg:flex-row gap-5">
-      <div className="w-full p-3 lg:h-[500px] mt-10 flex gap-3 justify-center overflow-hidden">
-        <div className="animate-marquee-x-tr lg:animate-marquee-tb flex flex-row lg:flex-col gap-5 transition-all duration-150">
+    <div className="w-full mb-5 lg:px-12 flex flex-col lg:flex-row">
+      <div className="w-full p-3 lg:h-[700px] flex gap-3 justify-center overflow-hidden">
+        <div className="animate-marquee-x-tr lg:animate-marquee-tb flex flex-row lg:flex-col gap-8 transition-all duration-150">
           {user.map((index, key) => (
             <COMPONENT.CardTestimonial
               key={key}
@@ -32,8 +32,8 @@ export default function Testimonial() {
           ))}
         </div>
       </div>
-      <div className="w-full lg:h-[500px] flex gap-3 justify-center overflow-hidden">
-        <div className="animate-marquee-x-tl lg:animate-marquee-t flex flex-row lg:flex-col gap-5">
+      <div className="w-full lg:h-[700px] flex gap-3 justify-center overflow-hidden">
+        <div className="animate-marquee-x-tl lg:animate-marquee-t flex flex-row lg:flex-col gap-8">
           {user.map((index, key) => (
             <COMPONENT.CardTestimonial
               key={key}
