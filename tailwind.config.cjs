@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('./src/assets/OrnamentBox.svg')",
-        "card-banner": "url('./src/assets/CardBanner.svg')",
-        "achievement-pattern": "url('./src/assets/Achievement.svg')",
-        "ourwork-pattern": "url('./src/assets/OrnamentBox2.svg')",
-        footer: "url('./src/assets/Union.svg')",
+        "hero-pattern": "url('../src/assets/OrnamentBox.svg')",
+        "card-banner": "url('../src/assets/CardBanner.svg')",
+        "achievement-pattern": "url('../src/assets/Achievement.svg')",
+        "ourwork-pattern": "url('../src/assets/OrnamentBox2.svg')",
+        footer: "url('../src/assets/Union.svg')",
       },
       colors: {
         primary: "#38C682",

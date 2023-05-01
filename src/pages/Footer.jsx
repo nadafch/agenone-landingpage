@@ -29,9 +29,9 @@ export default function Footer() {
           <div className="w-5 h-5 bg-gray-900 absolute bottom-0 left-0-0 -z-10"></div>
         </div>
       </div>
-      <div className="w-full h-auto p-3 px-10 bg-gray-900 bg-footer bg-no-repeat bg-center font-extralight">
-        <div className="flex justify-between items-center mt-10">
-          <div className="w-1/2">
+      <div className="w-full h-auto p-3 px-10 bg-gray-900 bg-footer bg-no-repeat bg-cover bg-center font-extralight">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-2 align-middle mt-10 ">
+          <div className="col-span-1 mb-12 ">
             <div className="flex gap-2 mb-10">
               <img src={SVGS.LogoText} />
               <p className="text-3xl font-bold italic">Agenone</p>
@@ -42,7 +42,7 @@ export default function Footer() {
             </p>
             <p>hello@agenone.com</p>
           </div>
-          <div className="w-1/2 flex justify-around">
+          <div className="col-span-1 flex justify-around ">
             <div className="flex flex-col gap-4">
               <p className="font-semibold mb-2">Menu</p>
               {["Home", "Service", "About Us", "Project", "Contact"].map(
@@ -75,7 +75,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="w-full flex items-center justify-center mt-24 p-5 border-t border-gray-500">
+        <div className="w-full flex items-center justify-center mt-10 p-5 border-t border-gray-500">
           <p>Copyright © 2023 by Agenone. All rights reserved.</p>
         </div>
       </div>
